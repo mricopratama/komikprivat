@@ -83,7 +83,7 @@ export default function AdminDashboard() {
         <main className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-2xl font-bold text-white mb-4">Access Denied</h1>
-            <p className="text-gray-400 mb-8">You don't have permission to access this page.</p>
+            <p className="text-gray-400 mb-8">You don&apos;t have permission to access this page.</p>
             <Button asChild>
               <Link href="/">Go Home</Link>
             </Button>

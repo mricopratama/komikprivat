@@ -160,7 +160,7 @@ function ComicReader({ comic, chapter, pages, allChapters }: ComicReaderProps) {
           {pages.length === 0 ? (
             <div className="text-center py-20">
               <div className="text-white text-xl mb-4">No pages available</div>
-              <div className="text-gray-400">This chapter doesn't have any pages yet.</div>
+              <div className="text-gray-400">This chapter doesn&apos;t have any pages yet.</div>
             </div>
           ) : (
             <div className="space-y-1">

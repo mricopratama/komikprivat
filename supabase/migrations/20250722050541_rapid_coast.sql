@@ -170,7 +170,7 @@ BEGIN
                     ELSE 'Chapter ' || i
                 END,
                 comic_record.id,
-                NOW() - INTERVAL (11 - i) || ' days'
+                NOW() - ((11 - i) * INTERVAL '1 day')
             );
         END LOOP;
     END LOOP;
